@@ -17,7 +17,7 @@ return (0);
  * @tree: a pointer to root node of the tree to check if full
  * Return: return 1 for success
  */
-int int binary_tree_is_full(const binary_tree_t *tree)
+int binary_tree_is_full(const binary_tree_t *tree)
 {
 int left, right;
 if (tree == NULL)
