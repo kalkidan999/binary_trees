@@ -17,7 +17,7 @@ while (1)
 {
 parent = current;
 /* go to left */
-if (value < parent->value)
+if (value < parent->n)
 current = current->left;
 /* insert to left */
 if (current == NULL)
