@@ -17,9 +17,8 @@ if (temp == NULL)
 return (NULL);
 /* go to right */
 temp->right = parent->right;
-/** If parent already has a right-child, the new node must take its place,
-* and the old right-child must be set as the right-child of the new node.
-*/
+/* If parent already has a right-child, the new node must take its place */
+/* and the old right-child must be set as the right-child of the new node */
 if (temp->right != NULL)
 {
 temp->right->parent = temp;
