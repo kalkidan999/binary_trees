@@ -12,5 +12,5 @@ return;
 binary_tree_delete(tree->left);
 binary_tree_delete(tree->right);
 /* then delete the node */
-free(tree);   
+free(tree);
 }
