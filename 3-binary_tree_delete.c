@@ -10,7 +10,7 @@ if (tree == NULL)
 return;
 /* first delete both subtrees */
 binary_tree_delete(tree->left);
-binary_tree_delete(tree-right);
+binary_tree_delete(tree->right);
 /* then delete the node */
 free(tree);   
 }
