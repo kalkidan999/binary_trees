@@ -27,3 +27,4 @@ return (1);
 leftnode = binary_tree_leaves(tree->left);
 rightnode = binary_tree_leaves(tree->right);
 return (rightnode + leftnode);
+}
