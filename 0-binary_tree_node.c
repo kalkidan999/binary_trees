@@ -8,7 +8,7 @@
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 binary_tree_t *tempnode;
-temp = malloc(sizeof(binary_tree_t));
+tempnode = malloc(sizeof(binary_tree_t));
 /*if tree is empty create root node */
 if (tempnode == NULL)
 {
@@ -16,7 +16,7 @@ return NULL;
 }
 tempnode->parent = parent;
 tempnode->n = value;
-tempnode->left = left;
-tempnode->right = right;
+tempnode->left = NULL;
+tempnode->right = NULL;
 return (tempnode);
 }
