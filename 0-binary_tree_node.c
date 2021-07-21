@@ -12,7 +12,7 @@ tempnode = malloc(sizeof(binary_tree_t));
 /*if tree is empty create root node */
 if (tempnode == NULL)
 {
-return NULL;
+return (NULL);
 }
 tempnode->parent = parent;
 tempnode->n = value;
