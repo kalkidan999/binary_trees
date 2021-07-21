@@ -13,7 +13,7 @@ return (1);
 return (0);
 }
 /**
- * binary_tree_leaves - counts the nodes with at least 1 child in a binary tree
+ * binary_tree_nodes - counts the nodes with at least 1 child in a binary tree
  * @tree: pointer to the root node of the tree to count the number of nodes
  * Return: return count
  */
